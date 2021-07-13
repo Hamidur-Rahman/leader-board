@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader board</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        .players-container {
+            /* background-color: azure;
+            width: 800px; */
+        }
+
+        .players {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+
+        }
+
+        .player {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .player img {
+            height: 100px;
+            width: 100px;
+        }
+
+        .player h3 {
+            margin-left: 20px;
+        }
+
+        .c {
+            display: flex;
+            justify-content: center;
+        }
+
+        .s {
+            height: 600px;
+            background-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="s">
+            <div class="c">
+                <div class="players-container">
+                    <h1 style="margin-left: 130px;">Top-player</h1>
+                    <div class="players">
+                        <div class="player">
+                            <img src="images/players/player-1.png" alt="Player">
+                            <h3> Jon Smith</h3>
+                        </div>
+                        <div class="player">
+                            <img src="images/players/player-2.png" alt="player pic">
+                            <h3> Babar Azam</h3>
+                        </div>
+                        <div class="player">
+                            <img src="images/players/player-3.png" alt="">
+                            <h3> Rohit Sharma</h3>
+                        </div>
+                        <div class="player">
+                            <img src="images/players/player-4.png" alt="">
+                            <h3> Fakhar Zaman</h3>
+                        </div>
+                        <div class="player">
+                            <img src="images/players/player-5.png" alt="">
+                            <h3> Joe Root</h3>
+                        </div>
+                        <div class="player">
+                            <img src="images/players/player-6.png" alt="">
+                            <h3> MS Dhoni</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
